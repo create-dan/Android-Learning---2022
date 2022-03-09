@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:assignment_3/screen/home_page.dart';
+import 'package:assignment_3/screen/info_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,9 +16,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: HomePage(),
     );
   }
